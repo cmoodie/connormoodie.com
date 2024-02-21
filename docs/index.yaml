@@ -2,14 +2,14 @@
 # https://github.com/srid/emanote/blob/master/emanote/default/index.yaml
 
 page:
-  siteTitle: Emanote Template
+  siteTitle: Connor Moodie's Place of Things
 
 template:
-  theme: red
+  theme: teal
 
   # You can add your own variables here, like editBaseUrl.
   # See after-note.tpl to see where editBaseUrl gets used.
-  editBaseUrl: https://github.com/srid/emanote-template/edit/master
+  editBaseUrl: https://github.com/cmoodie/connormoodie.com/edit/master
 
   # Uncomment this to get neuron-style pages
   # name: /templates/layouts/note
@@ -22,3 +22,11 @@ template:
 
   # If you are hosting on GitLab Pages, you may want to remove this.
   urlStrategy: pretty
+
+  uptree: 
+    enable: true
+  sidebar: 
+    enable: false
+  breadcrumbs: 
+    enable: false
+
