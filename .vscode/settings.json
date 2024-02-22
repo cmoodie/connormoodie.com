@@ -24,6 +24,11 @@
     "pasteImage.insertPattern": "![[${imageFilePath}]]",
     "search.exclude": {
         ".direnv": true
+    },
+    "files.exclude": {
+        "*.*": true,
+        "LICENSE": true,
+        "templates": true,
     }
     // If use Git, these might be interesting:
     // "git.autofetch": true,

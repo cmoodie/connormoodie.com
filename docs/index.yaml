@@ -29,4 +29,5 @@ template:
     enable: false
   breadcrumbs: 
     enable: false
-
+  base:
+    containerClass: container mx-auto max-w-prose
