@@ -22,3 +22,11 @@ Many resources online say "Just learn vocab, kanji often change meaning and pron
 
 **Spaced repetition works**<br>
 Spaced repetition is intentionally and specifically delaying when you are next tested on knowledge such that the knowledge works its way into your long-term memory. Roughly sorta kinda anyway. It's great, Anki's great, nice way to do a bit a day.
+
+## Other good resources
+
+* [Kanji Sljfaq](https://kanji.sljfaq.org/)
+  * Lets you draw the kanji and it will find it for you!
+* [Beginner's book club](https://community.wanikani.com/t/absolute-beginners-book-club-now-reading-miss-shikimori-is-not-just-cute-next-granny-girl-hinata-chan/34698)
+  * Haven't used it yet but looks like it could be helpful.
+
