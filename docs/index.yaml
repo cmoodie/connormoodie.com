@@ -2,10 +2,11 @@
 # https://github.com/srid/emanote/blob/master/emanote/default/index.yaml
 
 page:
-  siteTitle: Connor Moodie's Place of Things
+  siteTitle: Connor Moodie
 
 template:
   theme: teal
+  background: white
 
   # You can add your own variables here, like editBaseUrl.
   # See after-note.tpl to see where editBaseUrl gets used.
