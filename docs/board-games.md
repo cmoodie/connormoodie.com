@@ -11,7 +11,7 @@ To achieve this, we first need to define the different properties that a game ca
 Simple games have a small decision space and a lower skill ceiling; complex games have a large decision space and high skill ceiling.
 
 **Short -- Long**<br>
-Short games can be as quick as 5 minutes; long games can take up to 6 hours or so. Time taken by legacy games is considered as how long each session is.
+Short games can be as quick as 5 minutes; long games can take up to 6 hours or so. Time taken by legacy games is considered as how long each session is. Also takes into account how long a game *feels*, where games that have you waiting for your turn being docked points too.
 
 **Luck-based -- Skill-based**<br>
 Luck-based games rely heavily on luck to determine outcomes; skill-based games rely on player skill.
@@ -38,7 +38,7 @@ Funny games often make people laugh; serious games do not.
 Chill games feel relaxing to play with no time pressure whatsoever; stressful games give players stress, for example from time limits or difficult situations.
 
 ## Categories
-Next is to define the different categories board games can fall into, and the ideal values for the properties for a game in said category. A category has a weight (W) given to each property to indicate how important it is for games in that category - there are 10 properties and so all weights must add to 10. For a game in a category, each property gets a score out of 10, thus the final score for a game is out of 100.
+Next is to define the different categories board games can fall into, and the ideal values for the properties for a game in said category. A category has a weight (W) given to each property to indicate how important it is for games in that category - there are 10 properties and so all weights must add to 10. For a game in a category, each property gets a score out of 10, thus the final score for a game is out of 100, or divided by 10 to be a score out of 10.
 
 How each property is scored relative to the 'ideal' value of the property is not exact and fairly subjective. The score for each property shouldn't just be based on how close it is to the 'ideal' value, but also how well that property of the game makes the game enjoyable within its category. For example, a brain-burner may be adequately complicated, but if its complexity is not interesting and instead just painful, then it would get a poor score for that property.
 
@@ -54,6 +54,8 @@ These are games that you could introduce and teach to literally anybody, general
 * *Instinctual -- Calculating* (W = 1): Should be fairly instinctual to ensure turns go quickly and players don't feel 'too dumb' for the game.
 * *Funny -- Serious* (W = 1): Should be as funny as possible
 
+See my list [[party-games|here]].<br><br>
+
 **Filler Game**<br>
 These are games that are super quick little games to whip out when you don't have too much time and want to start up or round out a night. Or sometimes you just have a night of filler games, like skipping the main course and instead just having a bunch of snacks.
 * *Simple -- Complex* (W = 3): Simple enough to explain to board gamers in under 10 minutes.
@@ -61,6 +63,8 @@ These are games that are super quick little games to whip out when you don't hav
 * *Chill -- Stressful* (W = 2): Should be very chill, don't want to stress out over a filler game.
 * *Forgiving -- Punishing* (W = 1): Should be reasonably forgiving, you may be out of contention for winning quickly but you should at least be able to play the game to the end.
 * *Instinctual -- Calculating* (W = 1): Should be fairly instinctual to ensure turns go quickly.
+
+See my list [[filler-games|here]].<br><br>
 
 **Entry-level Game**<br>
 These are games that can be explained to new but keen players, and always leave them feeling good about the experience.
