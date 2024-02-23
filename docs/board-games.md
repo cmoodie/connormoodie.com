@@ -42,7 +42,9 @@ Next is to define the different categories board games can fall into, and the id
 
 How each property is scored relative to the 'ideal' value of the property is not exact and fairly subjective. The score for each property shouldn't just be based on how close it is to the 'ideal' value, but also how well that property of the game makes the game enjoyable within its category. For example, a brain-burner may be adequately complicated, but if its complexity is not interesting and instead just painful, then it would get a poor score for that property.
 
-Finally, note that a property may be missing from a game category - this implies that that property has a weight of 0 for that category.
+Also note that a property may be missing from a game category - this implies that that property has a weight of 0 for that category.
+
+Each section contains a link to a list of my games that fit that category. Note that sometimes a game may appear under multiple categories, and have a different score per category.
 
 **Party Game**<br>
 These are games that you could introduce and teach to literally anybody, generally should have a high/variable player count, and don't last too long as people come and go.
@@ -53,7 +55,7 @@ These are games that you could introduce and teach to literally anybody, general
 * *Funny -- Serious* (W = 1): Should be as funny as possible
 
 **Filler Game**<br>
-These are games that are super quick little games to whip out when you don't have too much time and want to start up or round out a night.
+These are games that are super quick little games to whip out when you don't have too much time and want to start up or round out a night. Or sometimes you just have a night of filler games, like skipping the main course and instead just having a bunch of snacks.
 * *Simple -- Complex* (W = 3): Simple enough to explain to board gamers in under 10 minutes.
 * *Short -- Long* (W = 3): Fairly short, but still long enough to feel that one game is enough.
 * *Chill -- Stressful* (W = 2): Should be very chill, don't want to stress out over a filler game.

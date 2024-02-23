@@ -4,6 +4,6 @@ Learning Japanese inspired by [Morg Systems](https://morg.systems/58465ab9) (thi
 
 I have kept the general structure of splitting learning into 3 categories:
 
-* [[Vocab]]
+* [[vocab]]
 * Grammar
-* [[Listening]]#
+* [[listening]]#
