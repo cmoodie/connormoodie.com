@@ -68,3 +68,19 @@ DWERG.
   * Without DWERG this would be a 1, but DWEEEEEEEEEEEEEERG.
 
 Final score: **7.6/10**<br><br>
+
+**Mysterium** ([BGG](https://boardgamegeek.com/boardgame/181304/mysterium))<br>
+A cooperative game that makes the ghost hate you all.
+* *Simple -- Complex*: **4/10**
+  * This game is an absolute pain in the ass to explain. A 6 if you already know how to play -- game can still be a little dry.
+* *Luck-based -- Skill-based*: **8/10**
+  * A hilarious mix of luck and skill where everyone's blaming each other, although the luck of what cards you get can be annoying as the ghost.
+* *Forgiving -- Punishing*: **10/10**
+  * You're always in contention to win as a team.
+* *Chill -- Stressful*: **10/10**
+  * Even though there's a time limit, the ghost chooses when to flip and and as the investigators you're never stressed.
+* *Abstract -- Thematic*: **10/10**
+  * Extremely thematic, especially when using the knocks as the ghost.
+
+Final score: **8.4/10**<br><br>
+Final score for people who already know how to play: **8.8/10**<br><br>
