@@ -13,7 +13,7 @@ Here's my ratings of the filler games I've played based on the system set out #[
 **Decorum** ([BGG](https://boardgamegeek.com/boardgame/344554/decorum))<br>
 Passive aggressive cohabitation is a fantastic and very apt subtitle for this game. Also this is definitely one of my favourite games ever made.
 * *Simple -- Complex*: **10/10**
-  * Perfect complexity for a filler game, can easily explain to board gamers.
+  * Perfect complexity for a filler game, can easily explain to board gamers. Also a very fun little puzzle.
 * *Short -- Long*: **10/10**
   * One game is enough, although could always accidentally fill a night.
 * *Chill -- Stressful*: **9/10**
@@ -28,7 +28,7 @@ Final score: **9.8/10**<br><br>
 **Sky Team** ([BGG](https://boardgamegeek.com/boardgame/373106/sky-team))<br>
 Pilot and co-pilot almost crash a plane for 15 minutes.
 * *Simple -- Complex*: **10/10**
-  * Perfect complexity for a filler game, can easily explain to board gamers.
+  * Perfect complexity for a filler game, can easily explain to board gamers. Also a very fun little puzzle.
 * *Short -- Long*: **10/10**
   * One game is enough, although could always accidentally fill a night.
 * *Chill -- Stressful*: **4/10**
@@ -38,26 +38,12 @@ Pilot and co-pilot almost crash a plane for 15 minutes.
 * *Instinctual -- Calculating*: **10/10**
   * Nice level of having a rough idea of what you should do, but without complete information can't truly calculate.
 
-Final score: **8.6/10**<br><br>
-
-**Cat in the Box** ([BGG](https://boardgamegeek.com/boardgame/373106/sky-team))<br>
-A very unique and interesting trick taking game.
-* *Simple -- Complex*: **9/10**
-  * Always seems hard to explain, but somehow everyone always picks it up fine.
-* *Short -- Long*: **7/10**
-  * A bit long which makes it a hard sell as a filler game, often can overrun in time.
-* *Chill -- Stressful*: **7/10**
-  * Can occasionally be stressful when you REALLY don't want to paradox.
-* *Forgiving -- Punishing*: **10/10**
-  * This game is so swingy, you could do horribly until the last round and still win.
-* *Instinctual -- Calculating*: **8/10**
-  * Maybe a tad too calculating for a filler game, but still fairly reasonable.
-
-Final score: **8.0/10**<br><br>
+Final score: **8.6/10**<br>
+Final score if okay with stress: **9.8/10**<br><br>
 
 **No Thanks!** ([BGG](https://boardgamegeek.com/boardgame/12942/no-thanks))<br>
 A very unique and interesting trick taking game.
-* *Simple -- Complex*: **7/10**
+* *Simple -- Complex*: **6/10**
   * Super simple, although potentially too much so, sometimes it feels there isn't enough game there.
 * *Short -- Long*: **10/10**
   * Perfect length for a filler game.
@@ -68,6 +54,6 @@ A very unique and interesting trick taking game.
 * *Instinctual -- Calculating*: **10/10**
   * If you can count to 35 then you're good and everything is instinctual.
 
-Final score: **8.4/10**<br><br>
+Final score: **8.1/10**<br><br>
 
 ## Unowned

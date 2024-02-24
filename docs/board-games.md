@@ -44,7 +44,7 @@ How each property is scored relative to the 'ideal' value of the property is not
 
 Also note that a property may be missing from a game category - this implies that that property has a weight of 0 for that category.
 
-Each section contains a link to a list of my games that fit that category. Note that sometimes a game may appear under multiple categories, and have a different score per category.
+Each section contains a link to a list of my games that fit that category. Note that sometimes a game may fit under multiple categories, but are only included in their highest scoring category.
 
 **Party Game**<br>
 These are games that you could introduce and teach to literally anybody, generally should have a high/variable player count, and don't last too long as people come and go.
@@ -66,8 +66,8 @@ These are games that are super quick little games to whip out when you don't hav
 
 See my list [[filler-games|here]].<br><br>
 
-**Entry-level Game**<br>
-These are games that can be explained to new but keen players, and always leave them feeling good about the experience.
+**Lightweight Game**<br>
+These are games perfect for either new players, or players that just want a simple bit of good fun.
 * *Simple -- Complex* (W = 2): More complex than a party game to make it interesting, but not too intimidating.
 * *Luck-based -- Skill-based* (W = 2): Enough luck to give newer players a chance at winning, while still giving agency.
 * *Forgiving -- Punishing* (W = 2): Very forgiving, no play a player may make should be really bad, the skills should come in identifying the best in a sea of good.
