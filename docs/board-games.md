@@ -74,12 +74,16 @@ These are games perfect for either new players, or players that just want a simp
 * *Chill -- Stressful* (W = 2): Should be chill, although some stressful decisions here and there won't hurt.
 * *Abstract -- Thematic* (W = 2): Should be fairly thematic to keep new players interested.
 
+See my list [[lightweight-games|here]].<br><br>
+
 **Brain-burner**<br>
 These are games made to make your brain hurt, but then feel elated when you figure things out throughout it.
 * *Simple -- Complex* (W = 3): Should be complex in an interesting way.
 * *Instinctual -- Calculating* (W = 3): Should be calculating and reward calculation.
 * *Luck-based -- Skill-based* (W = 3): Should be mainly skill-based to not constantly give bad results to well-calculated plays.
 * *Solitary -- Interactive* (W = 1): Should be solitary enough to allow for calculation while other players are taking their turn.
+
+See my list [[brain-burners|here]].<br><br>
 
 **Brawler**<br>
 These are games that pit players against each other, where stopping other people winning is as important as you yourself winning.
@@ -113,3 +117,5 @@ This is the [Galaxy Trucker](https://boardgamegeek.com/boardgame/31481/galaxy-tr
 * *Luck-based -- Skill-based* (W = 3): Pretty much entirely luck-based, so you just feel unlucky when things go wrong as opposed to annoyed at yourself.
 * *Short -- Long* (W = 2): Fairly short, want to be able to reset often.
 * *Forgiving -- Punishing* (W = 2): Should be quite punishing, more funny when things go wrong for them to go REALLY wrong.
+
+See my list [[chaos-games|here]].<br><br>

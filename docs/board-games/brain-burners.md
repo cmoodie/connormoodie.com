@@ -85,3 +85,17 @@ Very neat artifact that kinda plays okay as a game.
   * Purely solitary so can calculate completely.
 
 Final score: **7.0/10**<br><br>
+
+## Unowned
+**Spirit Island** ([BGG](https://boardgamegeek.com/boardgame/162886/spirit-island))<br>
+Easily the best cooperative brain-burner out there.
+* *Simple -- Complex*: **10/10**
+  * The entire game is a crazy interesting puzzle.
+* *Instinctual -- Calculating*: **10/10**
+  * Pretty much pure calculation, finding the best move involves a great amount of skill and experience.
+* *Luck-based -- Skill-based*: **9/10**
+  * Can sometimes get lucky, but otherwise completely skill based.
+* *Solitary -- Interactive*: **10/10**
+  * Teammates don't hinder your plans, instead they HELP them and make things even more interesting.
+
+Final score: **9.7/10**<br><br>
