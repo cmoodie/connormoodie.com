@@ -72,3 +72,16 @@ Making you and your team feel somewhat smart but also somewhat lucky when you su
   * As a cooperative game, what your teammates do *is* the puzzle.
 
 Final score: **7.0/10**<br><br>
+
+**Turing Machine** ([BGG](https://boardgamegeek.com/boardgame/356123/turing-machine))<br>
+Very neat artifact that kinda plays okay as a game.
+* *Simple -- Complex*: **1/10**
+  * Bursts of complexity surrounded by somewhat mind-numbing process of elimination, and an EXTREMELY mind-numbing process of setting the whole thing up each time.
+* *Instinctual -- Calculating*: **10/10**
+  * Pure calculation.
+* *Luck-based -- Skill-based*: **9/10**
+  * Can sometimes get lucky, but otherwise completely skill based.
+* *Solitary -- Interactive*: **10/10**
+  * Purely solitary so can calculate completely.
+
+Final score: **7.0/10**<br><br>

@@ -20,3 +20,29 @@ Brilliantly funny game about punishing others' greed as they put all 3 of their 
   * Things can go hilariously very wrong for you in this game.
 
 Final score: **8.8/10**<br><br>
+
+**Incan Gold** ([BGG](https://boardgamegeek.com/boardgame/15512/incan-gold))<br>
+Brilliantly funny game about the game itself punishing (or rewarding) your own greed.
+* *Funny -- Serious*: **8/10**
+  * Very funny as people win big or lose hard, although can rub some people the wrong way.
+* *Luck-based -- Skill-based*: **10/10**
+  * Pretty much gambling.
+* *Short -- Long*: **10/10**
+  * Super short and intense rounds.
+* *Forgiving -- Punishing*: **10/10**
+  * Things can go hilariously very wrong for you in this game, and it's always your own fault for being too greedy.
+
+Final score: **9.4/10**<br><br>
+
+**Galaxy Trucker** ([BGG](https://boardgamegeek.com/boardgame/31481/galaxy-trucker))<br>
+An incredibly stupid game about constantly sending your own spaceship to die.
+* *Funny -- Serious*: **9/10**
+  * Very funny as people get constantly screwed over, although occasionally things can go way too bad for one person in particular which isn't as fun.
+* *Luck-based -- Skill-based*: **10/10**
+  * It doesn't really matter how you make your ship, you'll still get screwed over somehow.
+* *Short -- Long*: **5/10**
+  * Rounds can go a little long with someone out in the first few cards.
+* *Forgiving -- Punishing*: **10/10**
+  * This game does not hold back at tearing your ship apart.
+
+Final score: **8.7/10**<br><br>
