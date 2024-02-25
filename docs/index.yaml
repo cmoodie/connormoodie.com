@@ -3,8 +3,6 @@
 
 page:
   siteTitle: Connor Moodie
-  headHtml: |
-    <snippet var="js.mathjax" />
 
 template:
   theme: teal
