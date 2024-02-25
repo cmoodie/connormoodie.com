@@ -31,11 +31,21 @@
       <base href='/' />
       <link href='favicon.svg' rel='icon' />
     
-    <meta name='generator' content='Emanote' />
+    <script>
+  window.MathJax = {
+    startup: {
+      ready: () => {
+        MathJax.startup.defaultReady();
+      }
+    }
+  };
+</script>
+<script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
+
 
   
   
-  <link href='tailwind.css?instanceId=a6f2f4dd-84c4-4306-abeb-a3cddcd2df7c' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=ac5d6523-28fd-4e2a-8b38-387c3fe45961' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -370,7 +380,18 @@
 
 
 
-
+<nav>
+  <div class='mb-8'>
+    <header data-nosnippet class='pb-2 mb-2 font-semibold text-gray-600'>
+      Folgezettel children
+    </header>
+    <ul>
+      
+    </ul>
+  </div>
+</nav>
+    <hr class='mb-3' />
+  
     <p class='mb-3'>
       While I still prefer physical books, my <a href='https://au.kobobooks.com/products/kobo-clara-2e' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Kobo</a> has been fantastic for travel. Through it I’ve discovered a love for Agatha Christie’s Hercule Poirot series, the way she writes how the “funny little man” expertly solves the cases is absolutely genius. I’ve decided to keep track of my thoughts on each entry in the series using the following rating system:
     </p>

@@ -31,11 +31,21 @@
       <base href='/' />
       <link href='favicon.svg' rel='icon' />
     
-    <meta name='generator' content='Emanote' />
+    <script>
+  window.MathJax = {
+    startup: {
+      ready: () => {
+        MathJax.startup.defaultReady();
+      }
+    }
+  };
+</script>
+<script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
+
 
   
   
-  <link href='tailwind.css?instanceId=a6f2f4dd-84c4-4306-abeb-a3cddcd2df7c' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=ac5d6523-28fd-4e2a-8b38-387c3fe45961' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -370,7 +380,54 @@
 
 
 
-
+<nav>
+  <div class='mb-8'>
+    <header data-nosnippet class='pb-2 mb-2 font-semibold text-gray-600'>
+      Folgezettel children
+    </header>
+    <ul>
+      
+        <li>
+          <div class='flex flex-wrap my-2'>
+            
+              <span data-nosnippet class='mr-2 text-right text-gray-600'>
+              </span>
+            
+            <a class='flex-1 text-teal-600 mavenLinkBold border-l-2 pl-2 hover:underline' href='japanese/grammar.html'>
+              Grammar
+            </a>
+          </div>
+        </li>
+      
+        <li>
+          <div class='flex flex-wrap my-2'>
+            
+              <span data-nosnippet class='mr-2 text-right text-gray-600'>
+              </span>
+            
+            <a class='flex-1 text-teal-600 mavenLinkBold border-l-2 pl-2 hover:underline' href='japanese/listening.html'>
+              Listening
+            </a>
+          </div>
+        </li>
+      
+        <li>
+          <div class='flex flex-wrap my-2'>
+            
+              <span data-nosnippet class='mr-2 text-right text-gray-600'>
+              </span>
+            
+            <a class='flex-1 text-teal-600 mavenLinkBold border-l-2 pl-2 hover:underline' href='japanese/vocab.html'>
+              Vocab
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+    <hr class='mb-3' />
+  
     <p class='mb-3'>
       Learning Japanese inspired by <a href='https://morg.systems/58465ab9' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Morg Systems</a> (this page is also where I got the inspiration for the structure of my own website). I’ve followed the general structure set out there, however have branched off into my own way of learning as I’ve found what works best for me.
     </p>
