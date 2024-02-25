@@ -1,4 +1,8 @@
 # Snowboarding
+```query
+children:.
+```
+---
 
 Don't snowboard very often and it's quite technical with a wide variety of teaching techniques and tips, so compiling the best I've seen here.
 

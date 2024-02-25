@@ -1,4 +1,8 @@
 # Vocab
+```query
+children:.
+```
+---
 
 Learning Japanese vocabulary has been the main stumbling point for me, and always the reason I get burnt out learning Japanese. I've somewhat settled on my current (early) path to vocab learning, but we'll see how long that lasts...
 

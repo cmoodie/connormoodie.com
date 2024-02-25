@@ -1,4 +1,8 @@
 # Board Games
+```query
+children:.
+```
+---
 
 I've been slowly amassing a collection of board games, and through playing them I have a rough idea of where they all stand in my own subjective ranking. But I've realised that actually ranking them against each other is a fruitless task, as two different games often fill two completely different purposes in my collection. How can you possibly directly compare [Dune Imperium](https://boardgamegeek.com/boardgame/316554/dune-imperium) and [Wandering Towers](https://boardgamegeek.com/boardgame/355483/wandering-towers) for example?
 
@@ -119,3 +123,4 @@ This is the [Galaxy Trucker](https://boardgamegeek.com/boardgame/31481/galaxy-tr
 * *Forgiving -- Punishing* (W = 2): Should be quite punishing, more funny when things go wrong for them to go REALLY wrong.
 
 See my list [[chaos-games|here]].<br><br>
+

@@ -1,4 +1,8 @@
 # Lightweight Games
+```query
+children:.
+```
+---
 
 Here's my ratings of the lightweight games I've played based on the system set out #[[board-games|here]]. Reminder of the ideal property values below:
 

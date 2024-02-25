@@ -1,4 +1,9 @@
 # Poirot Reviews
+```query
+children:.
+```
+---
+
 While I still prefer physical books, my [Kobo](https://au.kobobooks.com/products/kobo-clara-2e) has been fantastic for travel. Through it I've discovered a love for Agatha Christie's Hercule Poirot series, the way she writes how the "funny little man" expertly solves the cases is absolutely genius. I've decided to keep track of my thoughts on each entry in the series using the following rating system:
 
 * 5/5: A must-read for anyone.

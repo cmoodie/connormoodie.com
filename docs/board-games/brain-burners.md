@@ -1,4 +1,8 @@
 # Brain-burners
+```query
+children:.
+```
+---
 
 Here's my ratings of the brain-burners I've played based on the system set out #[[board-games|here]]. Reminder of the ideal property values below:
 

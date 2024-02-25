@@ -1,5 +1,9 @@
 
 # Filler Games
+```query
+children:.
+```
+---
 
 Here's my ratings of the filler games I've played based on the system set out #[[board-games|here]]. Reminder of the ideal property values below:
 
@@ -11,7 +15,7 @@ Here's my ratings of the filler games I've played based on the system set out #[
 
 ## Owned
 **Decorum** ([BGG](https://boardgamegeek.com/boardgame/344554/decorum))<br>
-Passive aggressive cohabitation is a fantastic and very apt subtitle for this game. Also this is definitely one of my favourite games ever made.
+Passive aggressive cohabitation is a fantastic and very apt subtitle for this game. Also this is definitely one of my favourite games ever made. See [[decorum|here]]# for my attempts at scenario generation for it.
 * *Simple -- Complex*: **10/10**
   * Perfect complexity for a filler game, can easily explain to board gamers. Also a very fun little puzzle.
 * *Short -- Long*: **10/10**
