@@ -18,7 +18,7 @@
   </title>
   
     
-      <meta property='og:description' content />
+      <meta property='og:description' content='Every condition restricts the solution space, i.e. if any condition is removed the solution space should increase in size.' />
       <meta property='og:site_name' content='Connor Moodie' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
@@ -42,10 +42,9 @@
 </script>
 <script async id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
 
-
   
   
-  <link href='tailwind.css?instanceId=ac5d6523-28fd-4e2a-8b38-387c3fe45961' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=d10f4e6c-5850-47cd-9df9-0483144d1d65' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -436,6 +435,88 @@
   </div>
 </nav>
     <hr class='mb-3' />
+  
+    <p class='mb-3'>
+      Every condition restricts the solution space, i.e. if any condition is removed the solution space should increase in size.
+    </p>
+  
+    <h2 id='how-much-do-conditions-restrict' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
+      
+  How Much do Conditions Restrict?
+  
+  <a href='decorum/restricting-solution-space.html#how-much-do-conditions-restrict'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h2>
+  
+    <p class='mb-3'>
+      The house in decorum has 12 object slots with 5 possibilities each (all 4 colours and empty) and 4 wall painting slots with 4 options each (all 4 colours). Therefore, the number of total configurations is:
+    </p>
+  
+    <p class='mb-3'>
+      <span class='math display'>$$5^{12} \times 4^{4} = 6.25 \times 10^{10}$$</span>
+    </p>
+  
+    <p class='mb-3'>
+      Now let’s consider a simple condition: “Condition C_{0}: The <strong>House</strong> must contain no <strong>Red Lamps</strong>”. The proportion of configurations that include no red lamps is
+    </p>
+  
+    <p class='mb-3'>
+      <span class='math display'>$$P(C_{0}) = (4/5)^{4} = 0.4096$$</span>
+    </p>
+  
+    <p class='mb-3'>
+      Here’s another easily calculated condition: “Condition C_{1}: The <strong>Kitchen</strong> and the <strong>Bathroom</strong> must be identical, in both objects and wall colour”. The proportion of configurations that satisfy this is:
+    </p>
+  
+    <p class='mb-3'>
+      <span class='math display'>$$P(C_{1}) = (1/5)^3 \times 1/4 = 0.002$$</span>
+    </p>
+  
+    <p class='mb-3'>
+      These are both conditions I’ve seen in some shape or form, and clearly restrict the space very differently.
+    </p>
+  
+    <p class='mb-3'>
+      The chance that condition C_{0} is satisfied given that condition C_{1} is satisfied is simple:
+    </p>
+  
+    <p class='mb-3'>
+      <span class='math display'>$$P(C_{0}|C_{1}) = (4/5)^{3} = 0.512$$</span>
+    </p>
+  
+    <p class='mb-3'>
+      Therefore, we have that
+    </p>
+  
+    <p class='mb-3'>
+      <span class='math display'>$$P(C_{0} \cap C_{1}) = P(C_{0}|C_{1}) \times P(C_{1}) = (5/4) \times P(C_{0})P(C_{1})$$</span> <span class='math display'>$$= (5/4)^{0}P(C_{0}) \times (5/4)^{1}P(C_{1})$$</span> <span class='math display'>$$= \prod_{n=0}^{1}\biggl((5/4)^{n}P(C_{n})\biggr)$$</span>
+    </p>
+  
+    <p class='mb-3'>
+      Now let’s extrapolate to all conditions:
+    </p>
+  
+    <p class='mb-3'>
+      <span class='math display'>$$P(\text{Solution})= \prod_{n=0}^{7}\biggl((5/4)^{n}P(C_{n})\biggr)$$</span>
+    </p>
+  
+    <p class='mb-3'>
+      The geometric mean of <span class='math inline'>\(P(C_{0})\)</span> and <span class='math inline'>\(P(C_{1})\)</span> is around 0.03. If we were to say that all 8 of our conditions’ proportions have a geometric mean of 0.03, then we can say that:
+    </p>
+  
+    <p class='mb-3'>
+      <span class='math display'>$$P(\text{Solution})= \prod_{n=0}^{7}\biggl((5/4)^{n}(0.03)\biggr) \approx 3.4 \times 10^{-10}$$</span>
+    </p>
+  
+    <p class='mb-3'>
+      This matches quite nicely with the number of total configurations, reducing it down to 1-2 possible solutions. This is perhaps too restrictive, but these calculations were rubbish anyway and just validating my choice of having 0.03 as a starting geometric mean for how much the conditions restrict.
+    </p>
   
   <!-- What goes in this file will appear below the note body-->
 </article>
