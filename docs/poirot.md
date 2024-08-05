@@ -24,6 +24,9 @@ I don't know, just didn't really feel this one, hardly memorable.
 **\#04 [3/5] <br> The Murder of Roger Ackroyd**<br>
 Vaguely remember this one being decent (starting these reviews well after reading this).
 
+**\#05 [1/5] <br> The Big Four**<br>
+Couldn't finish this one, such a strange disconnected contrived plot I had no interest in it.
+
 **\#06 [3/5] <br> The Mystery of the Blue Train**<br>
 Decent but nothing amazing.
 
