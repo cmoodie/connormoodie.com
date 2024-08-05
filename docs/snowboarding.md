@@ -17,7 +17,7 @@ There are two main ways of controlling speed:
 
 Digging your feet into the snow is a sure way to slow you down, but this is usually a very drastic movement and produces jerky motion.
 
-Lowering and raising your torso to put more weight over the edge of your board is more easily fine-tuned and can produce smooth motion.
+Lowering and raising your torso to put more weight over the edge of your board is more easily fine-tuned and can produce smooth motion. For heel-side this is a further exaggeration of the "sitting" posture, while for toe-side this is leaning further into the front of your boots.
 
 **Rotation**<br>
 Rotation is produced by twisting the board such that one of the board's edge is dragging less than the other. I find it much easier to think of the board rotating rather than me turning, because me turning means something very different when coming out of a sideslip compared to a traverse.
@@ -26,7 +26,11 @@ Regarding the **feet/ankes**, the board always rotates in the direction the foot
 
 ![](images/sb.png)
 
-Regarding the **knees**, pretend there is a laser on the outsides of your knees, how they point shows the next angle the board is heading towards.
+To produce this rotation, don't use your ankles, which are far more difficult to control and are fairly weak. Instead use your **knees**, where your fore knee (left for me) rotates either "out and back" (putting more pressure on the heel) or "in and forward" (putting more pressure on the toe), and the aft knee follows by doing the opposite.
+
+To help understand the board rotation direction, pretend there is a laser on the outsides of your knees, how they point shows the next angle the board is heading towards.
+
+Remember to keep you hip and upwards still aligned with the board, it's only the knees down that should be moving. The hip may make a small rotation if it helps, but not at all as drastic as what the knees do.
 
 ## General Posture
 * Torso straight over edge of board
