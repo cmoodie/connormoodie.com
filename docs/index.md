@@ -8,7 +8,6 @@ Please feel free to browse via the [index](-/all), however here are some startin
 
 * [[japanese]]
 * [[poirot]]
-* [[snowboarding]]
 * [[board-games]]
 * [[gym]]
 

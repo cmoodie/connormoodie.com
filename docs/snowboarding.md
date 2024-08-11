@@ -4,6 +4,8 @@ children:.
 ```
 ---
 
+**As of right now I don't plan on snowboarding again, I don't think I can nor want to put in enouhg time, money, and especially pain to get good enough.**
+
 Don't snowboard very often and it's quite technical with a wide variety of teaching techniques and tips, so compiling the best I've seen here.
 
 Please keep in mind that I'm very new and terrible at snowboarding so this could all be rubbish.
