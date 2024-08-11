@@ -39,5 +39,8 @@ Very good, but not quite up to par with the 5/5s.
 **\#14 [4/5] <br> Murder in Mesopotamia**<br>
 Very enjoyable writing style, case was good too.
 
+**\#17 [2/5] <br> Dumb Witness**<br>
+Hastings was *particularly* annoying and the ending left a sour taste in my mouth. Bob was great though.
+
 **\#18 [5/5] <br> Death on the Nile**<br>
 Absolutely Fantastic.
