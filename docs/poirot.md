@@ -24,6 +24,9 @@ I don't know, just didn't really feel this one, hardly memorable.
 **\#04 [3/5] <br> The Murder of Roger Ackroyd**<br>
 Vaguely remember this one being decent (starting these reviews well after reading this).
 
+**\#05 [1/5] <br> The Big Four**<br>
+Couldn't finish this one, such a strange disconnected contrived plot I had no interest in it.
+
 **\#06 [3/5] <br> The Mystery of the Blue Train**<br>
 Decent but nothing amazing.
 
@@ -35,6 +38,9 @@ Very good, but not quite up to par with the 5/5s.
 
 **\#14 [4/5] <br> Murder in Mesopotamia**<br>
 Very enjoyable writing style, case was good too.
+
+**\#17 [2/5] <br> Dumb Witness**<br>
+Hastings was *particularly* annoying and the ending left a sour taste in my mouth. Bob was great though.
 
 **\#18 [5/5] <br> Death on the Nile**<br>
 Absolutely Fantastic.
