@@ -35,7 +35,7 @@
 
   
   
-  <link href='tailwind.css?instanceId=598fc149-72a0-43ad-b0e4-b3e5e0af2d81' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=4d1172e4-33fe-40c8-9f76-41bf6f94b5cf' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -487,7 +487,7 @@
     </p>
   
     <p class='mb-3'>
-      <a href='board-games/brain-burners.html' class='text-teal-600 mavenLinkBold hover:underline' data-wikilink-type='WikiLinkBranch'>**Brain Burner**</a><span xmlhtmlRaw><br></span>
+      <strong><a href='board-games/brain-burners.html' class='text-teal-600 mavenLinkBold hover:underline' data-wikilink-type='WikiLinkNormal'>Brain Burner</a></strong><span class='font-bold bg-gray-100 py-0.5 px-2 rounded-lg emanote:inline-tag:<br>' title='Tag' data-tag='<br>'><a href='-/tags/%3Cbr%3E.html' title='Tag' class='text-teal-600 mavenLinkBold hover:underline'>#&lt;br&gt;</a></span>
     </p>
   
     <p class='mb-3'>
@@ -689,6 +689,15 @@
     </div>
     
   <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+      <!-- FIXME: The use of -/tags is wrong, because we should use routeUrl using Ema's encoder 
+        Perhaps Emanote should inject tagMetas with urls.
+      -->
+      <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-teal-500' href='-/tags/<br>.html'>
+        <!-- DoNotFormat -->
+        #&lt;br&gt;
+        <!-- DoNotFormat -->
+      </a>
     
   </section>
 
