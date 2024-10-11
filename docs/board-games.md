@@ -14,7 +14,7 @@ One thing to note is that accessibility is often not a factor for people who pla
 ## Kinds of Enjoyability
 A game can have multiple kinds of enjoyability, but they usually have one main one. I've separated the games into different pages according to their main kind of enjoyability.
 
-[[brain-burners|**Brain Burner**]]#<br>
+**[[brain-burners|Brain Burner]]**#<br>
 
 **Chaos**<br>
 
