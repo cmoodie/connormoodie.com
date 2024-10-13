@@ -4,16 +4,14 @@ children:.
 ```
 ---
 
-Here's my ratings of the brain-burners I've played based on the system set out #[[board-games|here]]. Reminder of the ideal property values below:
-
-* *Simple -- Complex* (W = 3): Should be complex in an interesting way.
-* *Instinctual -- Calculating* (W = 3): Should be calculating and reward calculation.
-* *Luck-based -- Skill-based* (W = 3): Should be mainly skill-based to not constantly give bad results to well-calculated plays.
-* *Solitary -- Interactive* (W = 1): Should be solitary enough to allow for calculation while other players are taking their turn.
+Here are my reviews of the brain-burners I've played based on the system set out #[[board-games|here]]:
 
 ## Owned
 **The Search for Planet X** ([BGG](https://boardgamegeek.com/boardgame/279537/search-planet-x))<br>
 A massive logic puzzle that everyone seems to enjoy, even those not into logic puzzles usually.
+* **Brain-burner:** 
+
+
 * *Simple -- Complex*: **7/10**
   * A good puzzle, but gameplay can get stale after a few plays.
 * *Instinctual -- Calculating*: **10/10**
