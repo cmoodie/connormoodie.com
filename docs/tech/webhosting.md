@@ -21,6 +21,9 @@ Stylesheets and scripts called out within the HTML file are requested by HTTP us
 ### The Server
 Usually, the server used will be a linux server. See [[linux]]# for more.
 
+### Domain Name Servers
+To avoid people having to connect to your website using an IP address, you can use a domain name server to redirect an address you own to the IP address. See [[dns]]# for more.
+
 ## Creating a Webpage
 ### Module bundlers
 Writing all the scripting for a webpage in one javascript file is absolute hell for any decently sized page. As such, module bundlers exist to allow you to write your code in a modular fashion, that is then bundled into one file. See [[vite]]# for an example of how a module bundler works.
