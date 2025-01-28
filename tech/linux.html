@@ -14,15 +14,15 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    Cider – Connor Moodie
+    Linux – Connor Moodie
   </title>
   
     
-      <meta property='og:description' content='Don’t drink it as much anymore, but I’m still a cider snob (Somersby’s is just apple juice).' />
+      <meta property='og:description' content='Linux-based operating systems are the most common choice for servers for a number of reasons, including it being open source, flexible, and lightweight.' />
       <meta property='og:site_name' content='Connor Moodie' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='Cider' />
+      <meta property='og:title' content='Linux' />
       
         <meta name='twitter:card' content='summary_large_image' />
       
@@ -324,9 +324,9 @@
           
             <li>
 
-  <a href='alcohol.html'>
+  <a href='tech.html'>
     <div class='text-gray-900 hover:bg-teal-500 hover:text-white cursor-pointer forest-link'>
-      Alcohol
+      Tech
     </div>
   </a>
 
@@ -374,7 +374,7 @@
   <main class='px-4 py-4'>
     <h1 class='flex items-end justify-center mb-4 p-3 bg-teal-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    Cider
+    Linux
   </a>
 </h1>
     <article class='overflow-auto'>
@@ -398,14 +398,18 @@
     <hr class='mb-3' />
   
     <p class='mb-3'>
-      Don’t drink it as much anymore, but I’m still a cider snob (Somersby’s is just apple juice).
+      Linux-based operating systems are the most common choice for servers for a number of reasons, including it being open source, flexible, and lightweight.
     </p>
   
-    <h5 id='saxton' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
-      
-  <a href='https://www.danmurphys.com.au/product/DM_709260/saxton-apple-cider-330ml' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Saxton</a>
+    <p class='mb-3'>
+      This page contains a number of learnings, tips, and tricks for Ubuntu specifically.
+    </p>
   
-  <a href='alcohol/cider.html#saxton'>
+    <h2 id='ssh' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
+      
+  SSH
+  
+  <a href='tech/linux.html#ssh'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -413,17 +417,37 @@
   </a>
 
 
-    </h5>
+    </h2>
   
     <p class='mb-3'>
-      Oh where are you my king.
+      Secure Shell (SSH) is the standard way to securely connect to a server over an unsecured network. There are two main ways to require authentication on ssh connections:
     </p>
   
-    <h5 id='yering-farms-farmyard-apple-cider' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
+    <ul class='my-3 ml-6 space-y-1 list-decimal list-inside'>
       
-  <a href='https://www.yeringfarmwines.com/wine/farmyard-apple-cider' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Yering Farm’s Farmyard Apple Cider</a>
+        <li>
+          Passwords
+        </li>
+      
+        <li>
+          SSH keys
+        </li>
+      
+    </ul>
   
-  <a href='alcohol/cider.html#yering-farms-farmyard-apple-cider'>
+    <p class='mb-3'>
+      If <code class='py-0.5 px-0.5 bg-gray-100'>PasswordAuthentication</code> is set to true in <code class='py-0.5 px-0.5 bg-gray-100'>/etc/ssh/sshd_config</code>, then users can log into ssh users their account passowrds.
+    </p>
+  
+    <p class='mb-3'>
+      If not, then a user can only log in using SSH keys, which are a public-private key pairing. Your public key must be a line in the file <code class='py-0.5 px-0.5 bg-gray-100'>~/.ssh/authorized_keys</code> on the server, and your private key must be in your own <code class='py-0.5 px-0.5 bg-gray-100'>~/.ssh</code> folder. Note that on windows, <code class='py-0.5 px-0.5 bg-gray-100'>~/</code> is generally equivalent to <code class='py-0.5 px-0.5 bg-gray-100'>%HOME%/</code>.
+    </p>
+  
+    <h2 id='linux-filesystem' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
+      
+  Linux Filesystem
+  
+  <a href='tech/linux.html#linux-filesystem'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -431,17 +455,13 @@
   </a>
 
 
-    </h5>
+    </h2>
   
-    <p class='mb-3'>
-      Used to be called “Syder”, they have since dropped the stupid name. The most appley tasting cider every, like biting into an apple, but not sweet like apple juice.
-    </p>
-  
-    <h5 id='napoleone' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
+    <h3 id='linux-folder-structure' class='group mt-6 mb-4 font-bold text-gray-700 text-3xl'>
       
-  <a href='https://napoleone.com.au/shop/cider/apple/napoleone-apple-cider/' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Napoleone</a>
+  Linux Folder Structure
   
-  <a href='alcohol/cider.html#napoleone'>
+  <a href='tech/linux.html#linux-folder-structure'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -449,17 +469,25 @@
   </a>
 
 
-    </h5>
+    </h3>
   
     <p class='mb-3'>
-      Is good.
+      The linux folder structure is not super rigid, but there are some guidelines to follow when using them. Below includes a table of the folders that can be meddled with:
+    </p>
+  <table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Folder</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Description</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>/home/&lt;user&gt;</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>This stores the user directories for <code class='py-0.5 px-0.5 bg-gray-100'>user</code>. This should not contain anything that affects the general function of the server. It should only contain things that <code class='py-0.5 px-0.5 bg-gray-100'>user</code> decides to put in there for their own use of the server.</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>/usr/local</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>This stores binaries, configurations, scripts, and source code for locally written and installed software.</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>/opt</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>This stores binaries, configurations, and scripts for self-contained static external packages.</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>/etc/opt</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>This stores host specific configuration for the packages in <code class='py-0.5 px-0.5 bg-gray-100'>/opt</code></td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>/srv</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>This stores the data for the services provided by the server.</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>/var</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>This stores variable data files such as logs. Commonly, <code class='py-0.5 px-0.5 bg-gray-100'>/var/www</code> is used for generated web files.</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>/tmp</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>This stores temporary files that can be deleted on reboot.</td></tr></tbody></table>
+    <p class='mb-3'>
+      Files in any other folders should only be used or edited if need be, never added to manually. Important software packages such as NGINX that see themselves as too cool for <code class='py-0.5 px-0.5 bg-gray-100'>/opt</code> may install in other places such as <code class='py-0.5 px-0.5 bg-gray-100'>/bin</code> or <code class='py-0.5 px-0.5 bg-gray-100'>/sbin</code>, with configuration files in <code class='py-0.5 px-0.5 bg-gray-100'>/etc</code>.
     </p>
   
-    <h5 id='willie-smiths' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
-      
-  <a href='https://www.williesmiths.com.au/product/willie-smiths-tasmanian-organic-apple-cider' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Willie Smith’s</a>
+    <p class='mb-3'>
+      Source html, css, and javascript files for a website should go in <code class='py-0.5 px-0.5 bg-gray-100'>/srv</code>, and their generated web files should go in <code class='py-0.5 px-0.5 bg-gray-100'>/var/www</code>.
+    </p>
   
-  <a href='alcohol/cider.html#willie-smiths'>
+    <h3 id='linux-file-permissions' class='group mt-6 mb-4 font-bold text-gray-700 text-3xl'>
+      
+  Linux File Permissions
+  
+  <a href='tech/linux.html#linux-file-permissions'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -467,17 +495,13 @@
   </a>
 
 
-    </h5>
+    </h3>
   
-    <p class='mb-3'>
-      Is good.
-    </p>
-  
-    <h5 id='kirin' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
+    <h4 id='viewing-file-permissions' class='group mt-6 mb-4 font-bold text-gray-700 text-2xl'>
       
-  <a href='https://www.liquorland.com.au/spirits/kirin-apple-cider-bottle-330ml_2465050?srsltid=AfmBOooE-sncOK-JbWKBU_1ifWmyp-DSU1F6MonpmtVh8Aqex24mDjGY' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Kirin</a>
+  Viewing File Permissions
   
-  <a href='alcohol/cider.html#kirin'>
+  <a href='tech/linux.html#viewing-file-permissions'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -485,10 +509,108 @@
   </a>
 
 
-    </h5>
+    </h4>
   
     <p class='mb-3'>
-      Haven’t seen this in a while, but it is quite appley and nice.
+      Using the command <code class='py-0.5 px-0.5 bg-gray-100'>ls</code> will list all of the files and folders of the current folder you’re in, with some useful options:
+    </p>
+  <table class='mb-3'><thead><tr class='border-b-2 border-t-2 border-gray-300'><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Flag</th><th class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Effect</th></tr></thead><tbody><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>-l</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Uses the long listing format, detailing: <code class='py-0.5 px-0.5 bg-gray-100'>permissions num-hardlinks file-owner file-group file-size modification-time filename</code></td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>-d</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>Instead of listing the files and folders in the current directory, the command will list the current directory itself only</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>-h</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>All file sizes are now human readable</td></tr><tr class='border-b-2 border-t-2 border-gray-300'><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'><code class='py-0.5 px-0.5 bg-gray-100'>-a</code></td><td class='py-2 px-2 align-top border-r-2 border-l-2 border-gray-300'>All files and folders are shown, including those starting with a <code class='py-0.5 px-0.5 bg-gray-100'>.</code></td></tr></tbody></table>
+    <p class='mb-3'>
+      This way, we can view the permissions of a file. They look something like this:
+    </p>
+  
+    <p class='mb-3'>
+      <code class='py-0.5 px-0.5 bg-gray-100'>drwxr-x--x</code>
+    </p>
+  
+    <ul class='my-3 ml-6 space-y-1 list-disc'>
+      
+        <li>
+          Character <strong>1</strong> is a <code class='py-0.5 px-0.5 bg-gray-100'>d</code> if the file is a directory, <code class='py-0.5 px-0.5 bg-gray-100'>-</code> if not.
+        </li>
+      
+        <li>
+          Characters <strong>2-4</strong> are the read <code class='py-0.5 px-0.5 bg-gray-100'>r</code>, write <code class='py-0.5 px-0.5 bg-gray-100'>w</code>, and execute <code class='py-0.5 px-0.5 bg-gray-100'>x</code> permissions for the owner of the file. If a letter is present, the owner has that permission. If instead there is a <code class='py-0.5 px-0.5 bg-gray-100'>-</code>, the owner does not have that permission.
+        </li>
+      
+        <li>
+          Characters <strong>5-7</strong> are the read <code class='py-0.5 px-0.5 bg-gray-100'>r</code>, write <code class='py-0.5 px-0.5 bg-gray-100'>w</code>, and execute <code class='py-0.5 px-0.5 bg-gray-100'>x</code> permissions for the group of the file. If a letter is present, users of the group have that permission. If instead there is a <code class='py-0.5 px-0.5 bg-gray-100'>-</code>, users of the group do not have that permission.
+        </li>
+      
+        <li>
+          Characters <strong>8-10</strong> are the read <code class='py-0.5 px-0.5 bg-gray-100'>r</code>, write <code class='py-0.5 px-0.5 bg-gray-100'>w</code>, and execute <code class='py-0.5 px-0.5 bg-gray-100'>x</code> permissions for any other users. If a letter is present, other users have that permission. If instead there is a <code class='py-0.5 px-0.5 bg-gray-100'>-</code>, other users do not have that permission.
+        </li>
+      
+    </ul>
+  
+    <h4 id='changing-file-permissions' class='group mt-6 mb-4 font-bold text-gray-700 text-2xl'>
+      
+  Changing file permissions
+  
+  <a href='tech/linux.html#changing-file-permissions'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h4>
+  
+    <p class='mb-3'>
+      The file permissions of a file or folder can be changed using the <code class='py-0.5 px-0.5 bg-gray-100'>chmod</code> command, . The permmissions are set to a number, where each digit in binary represents the permissions.
+    </p>
+  
+    <p class='mb-3'>
+      For example, <code class='py-0.5 px-0.5 bg-gray-100'>chmod 764 filename</code> would set the permissions of <code class='py-0.5 px-0.5 bg-gray-100'>filename</code> to 764 = 111 101 100 = rwxr-xr–.
+    </p>
+  
+    <p class='mb-3'>
+      The owner and group of a file or folder can be changed using <code class='py-0.5 px-0.5 bg-gray-100'>chown</code> command.
+    </p>
+  
+    <h2 id='services' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
+      
+  Services
+  
+  <a href='tech/linux.html#services'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h2>
+  
+    <p class='mb-3'>
+      System services are services that run whenever the server is running, while user services only run when that user is logged in. To see all running services run <code class='py-0.5 px-0.5 bg-gray-100'>sudo systemctl list-units --type=service --state=running</code>.
+    </p>
+  
+    <p class='mb-3'>
+      See <a href='https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>here</a> for more.
+    </p>
+  
+    <h2 id='ufw' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
+      
+  UFW
+  
+  <a href='tech/linux.html#ufw'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h2>
+  
+    <p class='mb-3'>
+      Use <code class='py-0.5 px-0.5 bg-gray-100'>sudo ufw status</code> for the firewall status.
+    </p>
+  
+    <p class='mb-3'>
+      See <a href='https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu#step-3-allowing-ssh-connections' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>here</a> for more.
     </p>
   
   <!-- What goes in this file will appear below the note body-->
@@ -496,6 +618,43 @@
     <div class='flex flex-col lg:flex-row lg:space-x-2'>
       
       
+  <div class='flex-1 p-4 mt-8 bg-gray-100 rounded'>
+    <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
+    <ul class='space-y-1'>
+      
+        <li>
+          <a class='text-teal-600 mavenLinkBold hover:bg-teal-50' href='tech/webhosting.html'>
+            Webhosting
+          </a>
+          
+            <div class='mb-4 overflow-auto text-sm text-gray-500'>
+  
+    <div class='pl-2 mt-2 border-l-2 border-teal-200 hover:border-teal-500'>
+      <div><p>Usually, the server used will be a linux server. See <a href='tech/linux.html' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Linux</a> for more.</p></div>
+    </div>
+  
+</div>
+          
+        </li>
+      
+        <li>
+          <a class='text-teal-600 mavenLinkBold hover:bg-teal-50' href='tech.html'>
+            Tech
+          </a>
+          
+            <div class='mb-4 overflow-auto text-sm text-gray-500'>
+  
+    <div class='pl-2 mt-2 border-l-2 border-teal-200 hover:border-teal-500'>
+      <div><a href='tech/linux.html' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Linux</a></div>
+    </div>
+  
+</div>
+          
+        </li>
+      
+    </ul>
+  </div>
+
     </div>
     
   <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>

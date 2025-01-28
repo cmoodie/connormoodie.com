@@ -14,15 +14,15 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    Cider – Connor Moodie
+    Application Layer Communication – Connor Moodie
   </title>
   
     
-      <meta property='og:description' content='Don’t drink it as much anymore, but I’m still a cider snob (Somersby’s is just apple juice).' />
+      <meta property='og:description' content='See [[http]].' />
       <meta property='og:site_name' content='Connor Moodie' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='Cider' />
+      <meta property='og:title' content='Application Layer Communication' />
       
         <meta name='twitter:card' content='summary_large_image' />
       
@@ -324,9 +324,20 @@
           
             <li>
 
-  <a href='alcohol.html'>
+  <a href='tech/webhosting.html'>
     <div class='text-gray-900 hover:bg-teal-500 hover:text-white cursor-pointer forest-link'>
-      Alcohol
+      Webhosting
+    </div>
+  </a>
+
+  
+    <ul>
+      
+        <li>
+
+  <a href='tech.html'>
+    <div class='text-gray-900 hover:bg-teal-500 hover:text-white cursor-pointer forest-link'>
+      Tech
     </div>
   </a>
 
@@ -341,6 +352,10 @@
     </div>
   </a>
 
+  
+</li>
+      
+    </ul>
   
 </li>
       
@@ -374,7 +389,7 @@
   <main class='px-4 py-4'>
     <h1 class='flex items-end justify-center mb-4 p-3 bg-teal-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    Cider
+    Application Layer Communication
   </a>
 </h1>
     <article class='overflow-auto'>
@@ -392,20 +407,28 @@
     </header>
     <ul>
       
+        <li>
+          <div class='flex flex-wrap my-2'>
+            
+              <span data-nosnippet class='mr-2 text-right text-gray-600'>
+              </span>
+            
+            <a class='flex-1 text-teal-600 mavenLinkBold border-l-2 pl-2 hover:underline' href='tech/http.html'>
+              HTTP
+            </a>
+          </div>
+        </li>
+      
     </ul>
   </div>
 </nav>
     <hr class='mb-3' />
   
-    <p class='mb-3'>
-      Don’t drink it as much anymore, but I’m still a cider snob (Somersby’s is just apple juice).
-    </p>
-  
-    <h5 id='saxton' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
+    <h2 id='definitions' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
       
-  <a href='https://www.danmurphys.com.au/product/DM_709260/saxton-apple-cider-330ml' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Saxton</a>
+  Definitions
   
-  <a href='alcohol/cider.html#saxton'>
+  <a href='tech/application-layer-communication.html#definitions'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -413,17 +436,25 @@
   </a>
 
 
-    </h5>
+    </h2>
   
-    <p class='mb-3'>
-      Oh where are you my king.
-    </p>
-  
-    <h5 id='yering-farms-farmyard-apple-cider' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
+    <ul class='my-3 ml-6 space-y-1 list-disc'>
       
-  <a href='https://www.yeringfarmwines.com/wine/farmyard-apple-cider' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Yering Farm’s Farmyard Apple Cider</a>
+        <li>
+          <strong>Application layer communication:</strong> Communication between two different services. These services may be on the same server, or different servers – it doesn’t matter. Actually how it goes from one IP address to another is dealt with by the transport layer, usually using TCP/IP. To communicate between services on the same server, <code class='py-0.5 px-0.5 bg-gray-100'>localhost:SERVICE_PORT</code> is used.
+        </li>
+      
+        <li>
+          <strong>Application layer protocol:</strong> A protocol used to perform application layer communication.
+        </li>
+      
+    </ul>
   
-  <a href='alcohol/cider.html#yering-farms-farmyard-apple-cider'>
+    <h2 id='protocols' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
+      
+  Protocols
+  
+  <a href='tech/application-layer-communication.html#protocols'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -431,17 +462,13 @@
   </a>
 
 
-    </h5>
+    </h2>
   
-    <p class='mb-3'>
-      Used to be called “Syder”, they have since dropped the stupid name. The most appley tasting cider every, like biting into an apple, but not sweet like apple juice.
-    </p>
-  
-    <h5 id='napoleone' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
+    <h3 id='http' class='group mt-6 mb-4 font-bold text-gray-700 text-3xl'>
       
-  <a href='https://napoleone.com.au/shop/cider/apple/napoleone-apple-cider/' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Napoleone</a>
+  HTTP
   
-  <a href='alcohol/cider.html#napoleone'>
+  <a href='tech/application-layer-communication.html#http'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -449,17 +476,17 @@
   </a>
 
 
-    </h5>
+    </h3>
   
     <p class='mb-3'>
-      Is good.
+      See <a href='tech/http.html' class='text-teal-600 mavenLinkBold hover:underline' data-wikilink-type='WikiLinkBranch'>HTTP</a>.
     </p>
   
-    <h5 id='willie-smiths' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
+    <h3 id='grpc' class='group mt-6 mb-4 font-bold text-gray-700 text-3xl'>
       
-  <a href='https://www.williesmiths.com.au/product/willie-smiths-tasmanian-organic-apple-cider' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Willie Smith’s</a>
+  gRPC
   
-  <a href='alcohol/cider.html#willie-smiths'>
+  <a href='tech/application-layer-communication.html#grpc'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -467,17 +494,17 @@
   </a>
 
 
-    </h5>
+    </h3>
   
     <p class='mb-3'>
-      Is good.
+      A high performance framework able to remotely call procedures on other services. It’s very useful for complicated microservice-based applications, but for simple websites it’s overkill. It uses HTTP/2 over TCP.
     </p>
   
-    <h5 id='kirin' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
+    <h3 id='apache-kafka' class='group mt-6 mb-4 font-bold text-gray-700 text-3xl'>
       
-  <a href='https://www.liquorland.com.au/spirits/kirin-apple-cider-bottle-330ml_2465050?srsltid=AfmBOooE-sncOK-JbWKBU_1ifWmyp-DSU1F6MonpmtVh8Aqex24mDjGY' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Kirin</a>
+  Apache Kafka
   
-  <a href='alcohol/cider.html#kirin'>
+  <a href='tech/application-layer-communication.html#apache-kafka'>
     <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
         <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
         <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
@@ -485,10 +512,64 @@
   </a>
 
 
-    </h5>
+    </h3>
   
     <p class='mb-3'>
-      Haven’t seen this in a while, but it is quite appley and nice.
+      This is used for real-time data transferring between services at high throughput and speeds. It uses a binary TCP-based protocol as its transport layer.
+    </p>
+  
+    <h2 id='api-standards-and-guidelines' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
+      
+  API standards and guidelines
+  
+  <a href='tech/application-layer-communication.html#api-standards-and-guidelines'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h2>
+  
+    <p class='mb-3'>
+      These can be implemented using any application layer protocol.
+    </p>
+  
+    <h3 id='rest' class='group mt-6 mb-4 font-bold text-gray-700 text-3xl'>
+      
+  REST
+  
+  <a href='tech/application-layer-communication.html#rest'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h3>
+  
+    <p class='mb-3'>
+      Representational State Transfer (REST) is a set of guidelines for an API. An API that follows these guidelines is said to be RESTful. The main two guidelines are that it is stateless and is a <a href='https://en.wikipedia.org/wiki/REST#Uniform_interface' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>uniform interface</a>. APIs that use HTTP as their application layer protocol are often RESTful.
+    </p>
+  
+    <h3 id='graphql' class='group mt-6 mb-4 font-bold text-gray-700 text-3xl'>
+      
+  GraphQL
+  
+  <a href='tech/application-layer-communication.html#graphql'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h3>
+  
+    <p class='mb-3'>
+      GraphQL is an API standard for querying graph data.
     </p>
   
   <!-- What goes in this file will appear below the note body-->
@@ -496,6 +577,28 @@
     <div class='flex flex-col lg:flex-row lg:space-x-2'>
       
       
+  <div class='flex-1 p-4 mt-8 bg-gray-100 rounded'>
+    <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
+    <ul class='space-y-1'>
+      
+        <li>
+          <a class='text-teal-600 mavenLinkBold hover:bg-teal-50' href='tech/webhosting.html'>
+            Webhosting
+          </a>
+          
+            <div class='mb-4 overflow-auto text-sm text-gray-500'>
+  
+    <div class='pl-2 mt-2 border-l-2 border-teal-200 hover:border-teal-500'>
+      <div><p>To solve this, the microservices architecture can be used. This means that separate components are separate services. The main downside is they have to use some sort of application layer protocol to communicate with each other. See <a href='tech/application-layer-communication.html' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkBranch'>Application Layer Communication</a> for more.</p></div>
+    </div>
+  
+</div>
+          
+        </li>
+      
+    </ul>
+  </div>
+
     </div>
     
   <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>

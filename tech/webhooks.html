@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<!-- DoNotFormat -->
+<!-- DoNotFormat -->
+
+
+
+
 <!-- DoNotFormat -->
 <!-- DoNotFormat -->
 
@@ -7,15 +14,15 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    Task Index – Connor Moodie
+    Webhooks – Connor Moodie
   </title>
   
     
-      <meta property='og:description' content='Hi, I’m Connor. Welcome to my website!' />
+      <meta property='og:description' content='An HTTP-based API allows a client to request information with GET requests to specific endpoints. For example, a client might be interested in the /is-complete endpoint, and could issue a GET request to get the response of TRUE or FALSE.' />
       <meta property='og:site_name' content='Connor Moodie' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='Task Index' />
+      <meta property='og:title' content='Webhooks' />
       
         <meta name='twitter:card' content='summary_large_image' />
       
@@ -27,7 +34,7 @@
     <meta name='generator' content='Emanote' />
 
   
-  <emaNoteFeedUrl></emaNoteFeedUrl>
+  
   <link href='tailwind.css?instanceId=33ea7650-3f36-4d3d-9f87-451f56cb3bf2' rel='stylesheet' type='text/css' />
 
   <style>
@@ -173,7 +180,28 @@
 </style>
 
 
-  <head-main></head-main>
+  
+    <style>
+      /* For use in sidebar.tpl, as we cannot achieve this in tailwind itself! */
+      /* md:min-w-48  */
+      @media (min-width: 768px) {
+        #sidebar {
+          min-width: 12rem;
+        }
+      }
+
+      /* xl:min-w-64  */
+      @media (min-width: 1280px) {
+        #sidebar {
+          min-width: 16rem;
+        }
+      }
+    </style>
+
+    
+      <link rel='stylesheet' href='_emanote-static/inverted-tree.css' />
+    
+  
   <link rel='stylesheet' href='_emanote-static/stork/flat.css' />
 <!-- Custom Stork-search styling for Emanote -->
 <style>
@@ -283,21 +311,220 @@
 
 <body class='bg-gray-400 overflow-y-scroll'>
   
-    <div class='container mx-auto '>
-      <main class='flex-col items-center justify-center mx-2'>
-        <h1 class='pb-2 mt-2 mb-2 text-6xl text-center'>
-          Task Index
-        </h1>
-        <div class='pb-2 mx-auto my-4 lg:max-w-screen-md '>
+    <div class='container mx-auto max-w-prose mt-2 md:mt-4  '>
+      
+        <!-- DoNotFormat -->
+<!-- DoNotFormat -->
+
+<nav id='uptree' class='flipped tree' style='transform-origin: 50%;'>
+  <ul class='root'>
+    <li>
+      
+        <ul>
           
-    <div class='w-full bg-gray-300'>
-      <div class='w-full px-3 py-1'>
-        
-      </div>
+            <li>
+
+  <a href='tech/webhosting.html'>
+    <div class='text-gray-900 hover:bg-teal-500 hover:text-white cursor-pointer forest-link'>
+      Webhosting
+    </div>
+  </a>
+
+  
+    <ul>
+      
+        <li>
+
+  <a href='tech.html'>
+    <div class='text-gray-900 hover:bg-teal-500 hover:text-white cursor-pointer forest-link'>
+      Tech
+    </div>
+  </a>
+
+  
+    <ul>
+      
+        <li>
+
+  <a href=''>
+    <div class='text-gray-900 hover:bg-teal-500 hover:text-white cursor-pointer forest-link'>
+      Connor Moodie
+    </div>
+  </a>
+
+  
+</li>
+      
+    </ul>
+  
+</li>
+      
+    </ul>
+  
+</li>
+          
+        </ul>
+      
+    </li>
+  </ul>
+</nav>
+      
+
+      
+
+      
+        <div id='container' class='relative md:shadow-2xl md:mb-8'>
+          
+  <div class='absolute -top-6 right-1 md:right-0 flex flex-row items-center justify-center'>
+    <a title='Search (Ctrl+K)' class='cursor-pointer' onclick='window.emanote.stork.toggleSearch()'>
+      <svg xmlns='http://www.w3.org/2000/svg' style='width: 1rem;' class='hover:text-teal-700' f
+ fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'>
+  <path stroke-linecap='round' stroke-linejoin='round' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'></path>
+</svg>
+    </a>
+  </div>
+
+          <!-- Main body column -->
+          <div class='flex-1 w-full overflow-x-auto bg-white'>
+  <main class='px-4 py-4'>
+    <h1 class='flex items-end justify-center mb-4 p-3 bg-teal-100 text-5xl font-extrabold text-black rounded'>
+  <a class='z-40 tracking-tighter '>
+    Webhooks
+  </a>
+</h1>
+    <article class='overflow-auto'>
+  <!-- What goes in this file will appear on top of note body-->
+  
+
+
+
+
+
+<nav>
+  <div class='mb-8'>
+    <header data-nosnippet class='pb-2 mb-2 font-semibold text-gray-600'>
+      Folgezettel children
+    </header>
+    <ul>
+      
+    </ul>
+  </div>
+</nav>
+    <hr class='mb-3' />
+  
+    <h4 id='a-webhook-is-a-reverse-http-based-api' class='group mt-6 mb-4 font-bold text-gray-700 text-2xl'>
+      
+  A webhook is a reverse HTTP-based API
+  
+  <a href='tech/webhooks.html#a-webhook-is-a-reverse-http-based-api'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h4>
+  
+    <p class='mb-3'>
+      An HTTP-based API allows a client to request information with GET requests to specific endpoints. For example, a client might be interested in the <code class='py-0.5 px-0.5 bg-gray-100'>/is-complete</code> endpoint, and could issue a GET request to get the response of <code class='py-0.5 px-0.5 bg-gray-100'>TRUE</code> or <code class='py-0.5 px-0.5 bg-gray-100'>FALSE</code>.
+    </p>
+  
+    <p class='mb-3'>
+      However, in this scenario, it’s likely that the client wants to know <em>when</em> the <code class='py-0.5 px-0.5 bg-gray-100'>/is-complete</code> endpoint turns from <code class='py-0.5 px-0.5 bg-gray-100'>FALSE</code> to <code class='py-0.5 px-0.5 bg-gray-100'>TRUE</code>, and using an API is forced to continuously poll the server until the response changes.
+    </p>
+  
+    <p class='mb-3'>
+      Instead, wouldn’t it be better if the server just let the client know when the <code class='py-0.5 px-0.5 bg-gray-100'>/is-complete</code> endpoint turns from <code class='py-0.5 px-0.5 bg-gray-100'>FALSE</code> to <code class='py-0.5 px-0.5 bg-gray-100'>TRUE</code>? That’s what webhooks do by being a reverse API – instead of the client sending a GET request to the server, the server sends a POST request to the client.
+    </p>
+  
+    <h4 id='setting-up-a-webhook' class='group mt-6 mb-4 font-bold text-gray-700 text-2xl'>
+      
+  Setting up a webhook
+  
+  <a href='tech/webhooks.html#setting-up-a-webhook'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h4>
+  
+    <p class='mb-3'>
+      Since the server needs to send a POST request to the client, the client needs to have an HTTP endpoint that’s prepared to handle the request.
+    </p>
+  
+    <p class='mb-3'>
+      The <a href='https://github.com/adnanh/webhook' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>webhook</a> package is a very nice and lightweight way to implement this.
+    </p>
+  
+    <p class='mb-3'>
+      Then, you just need the server to send a POST request whenever required (github has built in functionality for this).
+    </p>
+  
+    <h5 id='testing-a-webhook-using-curl' class='group mt-6 mb-4 font-bold text-gray-700 text-xl'>
+      
+  Testing a webhook using cURL
+  
+  <a href='tech/webhooks.html#testing-a-webhook-using-curl'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h5>
+  
+    <p class='mb-3'>
+      The <code class='py-0.5 px-0.5 bg-gray-100'>curl</code> command in linux can be used to send HTTP requests, and thus test the webhook:
+    </p>
+  
+    <p class='mb-3'>
+      <code class='py-0.5 px-0.5 bg-gray-100'>curl -X POST -H "Content-Type: application/json" -d "{ "your_data": "your_value" }" &lt;your_webhook_url&gt;</code>
+    </p>
+  
+  <!-- What goes in this file will appear below the note body-->
+</article>
+    <div class='flex flex-col lg:flex-row lg:space-x-2'>
+      
+      
+  <div class='flex-1 p-4 mt-8 bg-gray-100 rounded'>
+    <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
+    <ul class='space-y-1'>
+      
+        <li>
+          <a class='text-teal-600 mavenLinkBold hover:bg-teal-50' href='tech/webhosting.html'>
+            Webhosting
+          </a>
+          
+            <div class='mb-4 overflow-auto text-sm text-gray-500'>
+  
+    <div class='pl-2 mt-2 border-l-2 border-teal-200 hover:border-teal-500'>
+      <div><p>Generally, development will occur off of the actual server that hosts the webpage, and instead it should be kept up to date with a repository’s main branch. This can be done using webhooks to notify the server whenever the repository updates. See <a href='tech/webhooks.html' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkBranch'>Webhooks</a> for more.</p></div>
     </div>
   
+</div>
+          
+        </li>
+      
+    </ul>
+  </div>
+
+    </div>
+    
+  <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+  </section>
+
+    <!-- What goes in this file will at the very end of the main div -->
+  </main>
+</div>
         </div>
-      </main>
+      
+
       <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-800'>
   
   <div>

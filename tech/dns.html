@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<!-- DoNotFormat -->
+<!-- DoNotFormat -->
+
+
+
+
 <!-- DoNotFormat -->
 <!-- DoNotFormat -->
 
@@ -7,15 +14,15 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    Task Index – Connor Moodie
+    Domain Name Servers – Connor Moodie
   </title>
   
     
-      <meta property='og:description' content='Hi, I’m Connor. Welcome to my website!' />
+      <meta property='og:description' content='See here for a very good overview of the different types of DNS servers. Due to the hierarchy outlined there, you can’t just redirect google.com to your own IP address, since your DNS server is not the authority on google.com.' />
       <meta property='og:site_name' content='Connor Moodie' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='Task Index' />
+      <meta property='og:title' content='Domain Name Servers' />
       
         <meta name='twitter:card' content='summary_large_image' />
       
@@ -27,7 +34,7 @@
     <meta name='generator' content='Emanote' />
 
   
-  <emaNoteFeedUrl></emaNoteFeedUrl>
+  
   <link href='tailwind.css?instanceId=33ea7650-3f36-4d3d-9f87-451f56cb3bf2' rel='stylesheet' type='text/css' />
 
   <style>
@@ -173,7 +180,28 @@
 </style>
 
 
-  <head-main></head-main>
+  
+    <style>
+      /* For use in sidebar.tpl, as we cannot achieve this in tailwind itself! */
+      /* md:min-w-48  */
+      @media (min-width: 768px) {
+        #sidebar {
+          min-width: 12rem;
+        }
+      }
+
+      /* xl:min-w-64  */
+      @media (min-width: 1280px) {
+        #sidebar {
+          min-width: 16rem;
+        }
+      }
+    </style>
+
+    
+      <link rel='stylesheet' href='_emanote-static/inverted-tree.css' />
+    
+  
   <link rel='stylesheet' href='_emanote-static/stork/flat.css' />
 <!-- Custom Stork-search styling for Emanote -->
 <style>
@@ -283,21 +311,209 @@
 
 <body class='bg-gray-400 overflow-y-scroll'>
   
-    <div class='container mx-auto '>
-      <main class='flex-col items-center justify-center mx-2'>
-        <h1 class='pb-2 mt-2 mb-2 text-6xl text-center'>
-          Task Index
-        </h1>
-        <div class='pb-2 mx-auto my-4 lg:max-w-screen-md '>
+    <div class='container mx-auto max-w-prose mt-2 md:mt-4  '>
+      
+        <!-- DoNotFormat -->
+<!-- DoNotFormat -->
+
+<nav id='uptree' class='flipped tree' style='transform-origin: 50%;'>
+  <ul class='root'>
+    <li>
+      
+        <ul>
           
-    <div class='w-full bg-gray-300'>
-      <div class='w-full px-3 py-1'>
-        
-      </div>
+            <li>
+
+  <a href='tech/webhosting.html'>
+    <div class='text-gray-900 hover:bg-teal-500 hover:text-white cursor-pointer forest-link'>
+      Webhosting
+    </div>
+  </a>
+
+  
+    <ul>
+      
+        <li>
+
+  <a href='tech.html'>
+    <div class='text-gray-900 hover:bg-teal-500 hover:text-white cursor-pointer forest-link'>
+      Tech
+    </div>
+  </a>
+
+  
+    <ul>
+      
+        <li>
+
+  <a href=''>
+    <div class='text-gray-900 hover:bg-teal-500 hover:text-white cursor-pointer forest-link'>
+      Connor Moodie
+    </div>
+  </a>
+
+  
+</li>
+      
+    </ul>
+  
+</li>
+      
+    </ul>
+  
+</li>
+          
+        </ul>
+      
+    </li>
+  </ul>
+</nav>
+      
+
+      
+
+      
+        <div id='container' class='relative md:shadow-2xl md:mb-8'>
+          
+  <div class='absolute -top-6 right-1 md:right-0 flex flex-row items-center justify-center'>
+    <a title='Search (Ctrl+K)' class='cursor-pointer' onclick='window.emanote.stork.toggleSearch()'>
+      <svg xmlns='http://www.w3.org/2000/svg' style='width: 1rem;' class='hover:text-teal-700' f
+ fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'>
+  <path stroke-linecap='round' stroke-linejoin='round' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'></path>
+</svg>
+    </a>
+  </div>
+
+          <!-- Main body column -->
+          <div class='flex-1 w-full overflow-x-auto bg-white'>
+  <main class='px-4 py-4'>
+    <h1 class='flex items-end justify-center mb-4 p-3 bg-teal-100 text-5xl font-extrabold text-black rounded'>
+  <a class='z-40 tracking-tighter '>
+    Domain Name Servers
+  </a>
+</h1>
+    <article class='overflow-auto'>
+  <!-- What goes in this file will appear on top of note body-->
+  
+
+
+
+
+
+<nav>
+  <div class='mb-8'>
+    <header data-nosnippet class='pb-2 mb-2 font-semibold text-gray-600'>
+      Folgezettel children
+    </header>
+    <ul>
+      
+    </ul>
+  </div>
+</nav>
+    <hr class='mb-3' />
+  
+    <h2 id='dns-hierarchy' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
+      
+  DNS Hierarchy
+  
+  <a href='tech/dns.html#dns-hierarchy'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h2>
+  
+    <p class='mb-3'>
+      See <a href='https://www.dynu.com/en-US/Blog/Article?Article=DNS-Servers-Authoritative-Recursive-Root-TLD#:~:text=Recursive%20resolvers%20are%20also%20called,4.4.' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>here</a> for a very good overview of the different types of DNS servers. Due to the hierarchy outlined there, you can’t just redirect google.com to your own IP address, since your DNS server is not the authority on google.com.
+    </p>
+  
+    <h2 id='dns-records' class='group mt-6 mb-4 font-bold text-gray-700 text-4xl border-b-2'>
+      
+  DNS Records
+  
+  <a href='tech/dns.html#dns-records'>
+    <span class='hover:text-teal-400 group-hover:visible invisible cursor-pointer text-sm align-middle' aria-label='Copy link'><svg class='inline w-4' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+        <path d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'></path>
+        <path d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'></path>
+      </svg></span>
+  </a>
+
+
+    </h2>
+  
+    <ul class='my-3 ml-6 space-y-1 list-disc'>
+      
+        <li>
+          <strong>A record:</strong> Points a domain name (host) to an IP address (value).
+        </li>
+      
+        <li>
+          <strong>CNAME record:</strong> Points a domain name (host) to another domain name (value).
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      Note that for a DNS for a specific domain name, using @ indicates that this record is for the domain name withot a subdomain. If some other string is used, then that string is used as the subdomain for that DNS entry.
+    </p>
+  
+  <!-- What goes in this file will appear below the note body-->
+</article>
+    <div class='flex flex-col lg:flex-row lg:space-x-2'>
+      
+      
+  <div class='flex-1 p-4 mt-8 bg-gray-100 rounded'>
+    <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
+    <ul class='space-y-1'>
+      
+        <li>
+          <a class='text-teal-600 mavenLinkBold hover:bg-teal-50' href='tech/webhosting.html'>
+            Webhosting
+          </a>
+          
+            <div class='mb-4 overflow-auto text-sm text-gray-500'>
+  
+    <div class='pl-2 mt-2 border-l-2 border-teal-200 hover:border-teal-500'>
+      <div><p>To avoid people having to connect to your website using an IP address, you can use a domain name server to redirect an address you own to the IP address. See <a href='tech/dns.html' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkBranch'>Domain Name Servers</a> for more.</p></div>
     </div>
   
+</div>
+          
+        </li>
+      
+        <li>
+          <a class='text-teal-600 mavenLinkBold hover:bg-teal-50' href='tech/proxies.html'>
+            Proxies
+          </a>
+          
+            <div class='mb-4 overflow-auto text-sm text-gray-500'>
+  
+    <div class='pl-2 mt-2 border-l-2 border-teal-200 hover:border-teal-500'>
+      <div><p>A reverse proxy in a web server can allow for different domain names to be sent to different webpages, even though the HTTP GET request was to the same url. See <a href='tech/dns.html' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Domain Name Servers</a> for more.</p></div>
+    </div>
+  
+</div>
+          
+        </li>
+      
+    </ul>
+  </div>
+
+    </div>
+    
+  <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+  </section>
+
+    <!-- What goes in this file will at the very end of the main div -->
+  </main>
+</div>
         </div>
-      </main>
+      
+
       <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-800'>
   
   <div>
