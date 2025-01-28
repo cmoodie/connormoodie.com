@@ -3,3 +3,7 @@
 children:.
 ```
 ---
+
+### Suggested Contents
+* [[webhosting]]
+* [[linux]]

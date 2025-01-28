@@ -19,7 +19,7 @@ Most browsers have very similar ways of representing things and abilities to rep
 Stylesheets and scripts called out within the HTML file are requested by HTTP using the endpoint provided.
 
 ### The Server
-Usually, the server used will be a linux server. See [[linux]]# for more.
+Usually, the server used will be a linux server. See [[linux]] for more.
 
 ### Domain Name Servers
 To avoid people having to connect to your website using an IP address, you can use a domain name server to redirect an address you own to the IP address. See [[dns]]# for more.
