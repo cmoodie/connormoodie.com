@@ -12,6 +12,7 @@ Please feel free to browse via the [index](-/all), however here are some startin
 * [[gym]]
 * [[alcohol]]
 * [[tech]]
+* [[sport]]
 
 ## Emanote
 This site is produced using the [emanote template](https://emanote.srid.ca/start/resources/emanote-template) using the [neuron-like layout](https://emanote.srid.ca/guide/html-template/neuron-layout). This means I don't require any upfront categorisation or planning and can just write pages as I please using markdown.
