@@ -4,10 +4,10 @@ children:.
 ```
 ---
 
-Big fan of whiskey, generally on the rocks or with ginger ale.
+Big fan of whiskey, generally on the rocks.
 
 ##### [Starward Nova](https://starward.com.au/products/nova?srsltid=AfmBOorxknlc0jsKxmgBj8ZkM9PK4T1zd6kSNcstf_t1U7kv2_EXlQRL)
-Very oaky and chocolatey whiskey, fairly strong but very nice. Can be nice with ginger ale too as the flavour pierces through.
+Very oaky and chocolatey whiskey, fairly strong but very nice.
 
 ##### [Chita](https://house.suntory.com/chita-whisky/chita-single-grain-whisky)
 Smooth like all Japanese Whiskey, but full of flavour unlike a lot of them.
