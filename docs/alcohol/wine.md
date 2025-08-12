@@ -11,3 +11,6 @@ Favourite Pinot Gris and the first one I've bothered to remember and write down.
 
 ##### [Stonyfell Rosé Garden of Dreams](https://www.stonyfellwines.com.au/garden-of-dreams/)
 Very nice light and refreshing rosé.
+
+##### [Land of Giants Rosé](https://www.liquorland.com.au/rose/land-of-giants-rose-750ml_3114061)
+Deliciously fruity and balanced.
