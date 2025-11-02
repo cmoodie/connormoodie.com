@@ -14,3 +14,6 @@ Smooth like all Japanese Whiskey, but full of flavour unlike a lot of them.
 
 ##### [Gospel](https://www.thegospelwhiskey.com/collections/whiskey/products/straight-rye-whiskey)
 Don't remember much about this one actually, but remember liking it.
+
+##### [Lagavulin](https://kentstreetcellars.com.au/products/lagavulin-12-year-old-single-malt-scotch-whisky-700ml-special-release-2022)
+Very nice, smooth, but flavourful scotch whiskey
