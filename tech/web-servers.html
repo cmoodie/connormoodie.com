@@ -35,7 +35,7 @@
 
   
   
-  <link href='tailwind.css?instanceId=eec031a8-bf49-4257-a441-f03294c6a148' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=6a779a29-8f3b-475d-94c3-92818779991b' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -433,11 +433,11 @@
     </p>
   
     <p class='mb-3'>
-      There are two main web server services: <a href='https://nginx.org/en/' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Nginx</a> and <a href='https://httpd.apache.org/' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Apache HTTP Server</a>.
+      Historically, there have been two main web server services: <a href='https://nginx.org/en/' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Nginx</a> and <a href='https://httpd.apache.org/' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Apache HTTP Server</a>. These are both still used today due to their high configurability and speed. Nginx can also be used as a reverse proxy to allow for one server to host multiple websites – see <a href='tech/proxies.html' class='text-teal-600 mavenLinkBold hover:underline' data-wikilink-type='WikiLinkBranch'>Proxies</a> for more.
     </p>
   
     <p class='mb-3'>
-      Nginx is simpler to configure and is becoming the default choice, and is therefore the one I use. It can also be used as a reverse proxy to allow for one server to host multiple websites – see <a href='tech/proxies.html' class='text-teal-600 mavenLinkBold hover:underline' data-wikilink-type='WikiLinkBranch'>Proxies</a> for more.
+      I, however, use <a href='https://caddyserver.com/' class='text-teal-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>Caddy</a>, an up and coming open source web server that can act as a reverse proxy <em>and</em> automatically provides you with certificates so you don’t need to use certbot to do so.
     </p>
   
   <!-- What goes in this file will appear below the note body-->
