@@ -1,0 +1,106 @@
+## Plan
+- How monitors display stuff
+  - Scan
+  - Monitor refresh rate, pixel clock, and hsync and vertical retrace/blanking interval
+    - Gpu controlling everything (telling monitor when to hsync and vblank)
+    - Monitor has strict requirements on when it can receive hsync and vblank
+      - Vertical retrace speed capabilities
+      - Cannot wait too long either for complicated monitor reasons
+  - Front buffer (pixels from which sent to monitor) and back buffer
+    - Buffer swap
+    - Input lag
+      - Time between input received by computer and next frame render start
+      - Time taken to render frame (time between render start and display frame start)
+      - Time taken to display frame (wherever monitor scan is has 0 lag, spot full scan away has 1/hz lag)
+    - Tearing
+- Vsync
+  - Monitor unaware
+  - Gpu ensures buffer swap only happens during vblank, therefore removing tearing
+  - Input lag increased since gpu forced to wait
+    - Input has to wait longer for next frame render start (min 0 max 1/hz)
+    - Frame has to wait longer for next display frame start (min 0 max 1/hz)
+    - Min of 0 is if fps would have been equal to monitor refresh rate anyway
+    - Max of 2/hz (2 monitor frames) is with theoretical infinite fps with input at the start of display frame
+  - FPS can suddenly halve when dropping below refresh rate of monitor
+- Triple buffered vsync
+  - A second back buffer is added
+    - Used to ensure gpu isn't idle
+    - Basic version swaps between the two buffers, so no frames are thrown away for the sake of reducing input lag
+      - This causes a lot of input lag, since a frame now may have to wait for the frame after next to start
+      - Input theoretically still has to wait a max of 1/hz, but practically this does reduce this side of the input lag
+      - Fixes the FPS suddenly halving
+    - Better version is to allow for throwing away frames, and using the most recent completed frame on refresh
+      - NVIDIA Fast Sync and AMD Enhanced Sync
+      - Input now never has to wait longer for next frame to start compared to no vsync
+      - Frame still has to wait longer compared to no vsync, but its min 0 max 1/fps
+      - This is the ideal solution to stop tearing for high fps, as it has little effect on input lag
+        - FPS does need to be high enough to ensure the thrown away frames do not cause jitter, generally at least 2x refresh rate
+      - If fps is lower than refresh rate, this acts as basic triple buffered vsync
+- Variable Refresh Rate (VRR)
+  - Refresh rate varies to match the fps to remove tearing
+  - Has no effect on input lag compared to no VRR
+  - Only works when fps in below monitor max refresh rate, and above some minimum
+  - Monitor is aware, has to be ready to accept extra data such as
+    - VBlank lengths (not just when to start it)
+    - Min and max refresh rates
+    - Frame render timings (telling monitor to start rendering frame now!)
+  - Low Frame Compensation, making refresh rate double that of fps and displaying frames twice
+  - Ironically, this is best used with double buffer vsync, because:
+    - FPS under refresh rate vsync has no effect, because vrr is in effect
+    - FPS (just) over refresh rate is vsync's best operating scenario, causing very little extra input lag
+    - Simply capping fps to just under refresh rate will cause vrr to be on most of the time
+      - Any time fps accidentally goes above refresh rate vsync steps in to stop tearing
+- Summary
+  - Option rankings:
+    - **BEST:** If you're able to do this, do it
+    - **FINE:** A fine choice if its properties match what you want
+    - **DONT:** Included because it technically isn't strictly worse than another option, but still... just don't
+  - Option if FPS consistently below refresh rate AND you have VRR
+    - **BEST** VRR (if monitor has it)
+      - No tearing
+      - No input lag increase
+      - No fps penalties
+  - Options if FPS hovers around refresh rate AND you have VRR
+    - **BEST:** VRR + fps cap just below refresh rate + double buffered vsync
+      - No tearing
+      - No input lag increase, except a small one in rare situations where fps jumps above refresh rate despite cap
+      - FPS cap at just below refresh rate
+    - **FINE:** VRR
+      - No tearing unless fps goes above refresh rate
+      - No input lag increase
+      - No fps penalties
+    - **FINE:** VRR + fps cap just below refresh rate
+      - No tearing, except in rare situations where fps jumps above refresh rate despite cap
+      - No input lag increase
+      - FPS cap at just below refresh rate
+    - **DONT:** VRR + double buffered vsync
+      - No tearing
+      - No input lag increase, except when fps is above refresh rate despite cap
+      - FPS cap at refresh rate
+  - Options if fps hovers around or is consistently below refresh rate AND you DON'T have VRR
+    - **FINE:** Nothing
+      - Tearing (worse with lower fps)
+      - No input lag increase
+      - No fps penalties
+    - **FINE:** Triple buffered vsync
+      - No tearing
+      - Large input lag increase
+      - No fps penalties
+    - **FINE:** Double buffered vsync + fps cap
+      - No tearing
+      - Medium input lag increase
+      - FPS cap, and potential for fps halving when dropping below cap at certain thresholds
+    - **DONT:** Double buffered vsync
+      - No tearing
+      - Medium input lag increase
+      - Large inconsistent fps penalties when crossing certain thresholds
+  - Options if fps is consistently much higher than refresh rate
+    - **BEST:** NVIDIA Fast Sync or AMD Enhanced Sync (Triple buffering vsync with frame throwaway)
+      - No tearing
+      - Max 1/fps input lag increase (tiny)
+      - No fps penalties*
+        - I mean I suppose your frame has to wait max 1/fps to be displayed sometimes but in reality it's nothing
+    - **FINE:** Nothing
+      - Tearing (high fps makes it not that bad anyway)
+      - No input lag increase
+      - No fps penalties
