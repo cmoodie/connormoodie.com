@@ -25,3 +25,23 @@ I actually like peach iced tea when it's alcoholic it seems.
 * 2 parts whiskey/bourbon
 * 10-15 drops of bitters
 * 7 (rest) parts peach iced tea
+
+#### Spirited Away
+A poor recreation of something I had at Bounty of the Sun.
+* 1 part whiskey (Starward 2-fold goes well)
+* 1 part brandy
+* 1/4 parts sugar syrup
+* 5 drops of bitters
+
+#### Shitty rum sidecar
+Don't have lemon? Just add sugar syrup and more triple sec!
+* 1 1/2 parts rum
+* 1 part triple sec
+* 1/4 parts sugar syrup
+* 5 drops of bitters
+
+#### Yuzu Rakija
+Adjust yuzu to taste. 
+* 2 parts rakija
+* 1/4 parts yuzu syrup (5:1)
+* 5 (rest) parts soda water
