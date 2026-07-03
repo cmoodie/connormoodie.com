@@ -45,9 +45,9 @@ children:.
         - From the game's (DirectX, Vulkan) perspective, vsync is OFF, but instead NVIDIA/AMD performs the vsync using its own virtual buffers
       - Frame still has to wait longer compared to no vsync, but its min 0 max 1/rr
       - This is the ideal solution to stop tearing for high render rate, as it has little effect on input lag
-        - If FPS is not high enough (but still above refresh rate) the inconsistent times between frame render and display cause jitter
-        - FPS does need to be high enough to ensure the thrown away frames do not cause jitter, generally at least 2x refresh rate
-      - If fps is lower than refresh rate, this acts as basic triple buffered vsync
+        - If render rate is not high enough (but still above refresh rate) the inconsistent times between frame render and display cause jitter
+        - Render rate does need to be high enough to ensure the thrown away frames do not cause jitter, generally at least 2x refresh rate
+      - If render rate is lower than refresh rate, this acts as basic triple buffered vsync, since you'd never throw away any frames
 - Variable Refresh Rate (VRR)
   - Refresh rate varies to match the render rate to remove tearing
   - Has no effect on input lag compared to no VRR
